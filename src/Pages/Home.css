@@ -72,34 +72,27 @@ form button{
     line-height: 1.2rem;
 }
 
-@media(max-width:600px){
+
+@media(max-width:1000px){
     form input{
-        margin-left: 1rem;
+        margin-left: 5rem;
         padding: -1rem;
-        width: 80%;
-    }
-    form label input{
-        
-        width: 1rem;
-        margin-left: 2rem;
-     
+        width: 100%;
     }
     form button{
         box-shadow: none;
-        width: 50%;
+        width: 30%;
         margin-top: 0rem;
         border-radius: 24px;
         padding:10px 12px;
       
-        margin-left: -2rem;
+        margin-left: -3rem;
+    }   
+}
+@media(max-width:800px) {
+    form input{
+        margin-left: 5rem;
+        padding: -1rem;
+        width: 60%;
     }
-    .body .super{
-       
-        font-size: 1rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-        
-    }
-    
-    
 }
