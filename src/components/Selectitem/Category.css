@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+
+.rightside{
+   
+    width: 50vw;
+    /* max-height: 20vh; */
+    padding-top: 2vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.leftR{
+    width: 40vw;
+    height: 80vh;
+    padding-top: 10vh;
+    /* text-align: center; */
+    padding-left: 5vw;
+    box-sizing: border-box;
+
+}
+
+.heading{
+    position: absolute;
+    width: 300px;
+    height: 99px;
+    left: 100px;
+    top: -10px;
+    
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 139.69%;
+    /* or 99px */
+    
+    
+    color: #72DB73;
+}
+
+.Heading{
+    position: absolute;
+    width: 554px;
+    height: 316px;
+    left: -10px;
+    top: 150px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 139.69%;
+    /* or 95px */
+    color: #FFFFFF;
+}
+
+.button{
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    left: 1040px;
+    top: 580px;
+    
+    background: #148A08;
+    border-radius: 38.8571px;
+}
+.boxcenter{
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+.selecteditem{
+    margin-top: 70vh;
+    margin-left: -45px;
+}
