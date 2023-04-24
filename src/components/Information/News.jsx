@@ -7,7 +7,7 @@ const News = ()=>{
     console.log(news)
     useEffect(()=>{
         const fetchNews = async()=>{
-           await fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-03-21&sortBy=publishedAt&apiKey=b3e6a0b697a8452c8d99ff7b3ffd5dbb")
+           await fetch("https://newsapi.org/v2/everything?q=tesla&from=today&sortBy=publishedAt&apiKey=b3e6a0b697a8452c8d99ff7b3ffd5dbb")
                 .then(async(data)=>await data.json()).then((res)=>setNews(res.articles[0]))
         }
         fetchNews();
