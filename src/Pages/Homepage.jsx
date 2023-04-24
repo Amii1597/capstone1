@@ -1,7 +1,7 @@
 import React from 'react'
 // import Notes from '../components/Information/Notes'
 import Data from '../components/Information/Data'
-// import Weather from '../components/Information/Weather'
+import Weather from '../components/Information/Weather'
 // import News from '../components/Information/News'
 // import Timer from '../components/Information/Timer'
 import './Homepage.css'
@@ -22,8 +22,8 @@ const Homepage = () => {
    
 </div>
 <div>
-{/* <Weather/>
-  <Timer/> */}
+<Weather/>
+  {/* <Timer/> */}
   <button className='next_page' onClick={click}>Browse</button>
 </div>
 </>
