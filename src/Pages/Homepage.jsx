@@ -1,9 +1,9 @@
 import React from 'react'
-// import Notes from '../components/Information/Notes'
+import Notes from '../components/Information/Notes'
 import Data from '../components/Information/Data'
 import Weather from '../components/Information/Weather'
-// import News from '../components/Information/News'
-// import Timer from '../components/Information/Timer'
+import News from '../components/Information/News'
+import Timer from '../components/Information/Timer'
 import './Homepage.css'
 import { useNavigate } from 'react-router-dom'
 const Homepage = () => {
@@ -16,14 +16,14 @@ const Homepage = () => {
 <div style={{display:'flex'}}>
 
   <Data/>
- {/* <Notes/> 
-   <News/> */}
+ <Notes/> 
+   <News/>
    
    
 </div>
 <div>
 <Weather/>
-  {/* <Timer/> */}
+  <Timer/>
   <button className='next_page' onClick={click}>Browse</button>
 </div>
 </>
