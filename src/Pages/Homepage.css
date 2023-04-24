@@ -1,0 +1,11 @@
+.next_page{
+   position: absolute;
+   bottom: 2vh;
+   right: 3vw;
+   background-color: green;
+   color: white;
+   border-radius: 12px ;
+
+   width: 150px;
+   padding: 6px;
+}

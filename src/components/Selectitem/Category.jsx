@@ -61,7 +61,7 @@ const Category = () => {
     const navigate = useNavigate()
     const handleSignUp = ()=>{
        window.localStorage.setItem("item", JSON.stringify([...categories]))
-         navigate("/")
+         navigate("/Homepage")
 
     }
   return (
