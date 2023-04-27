@@ -8,7 +8,7 @@ body{
 .rightside{
    
     width: 50vw;
-    /* max-height: 20vh; */
+
     padding-top: 2vh;
     display: grid;
     gap: 10px;
@@ -75,4 +75,44 @@ body{
 .selecteditem{
     margin-top: 70vh;
     margin-left: -45px;
+}
+@media(max-width:1000px){
+    .heading{
+        left: -30px;
+    }
+    .Heading{
+        height: 100px;
+        width:200px;
+        left: 10px;
+        top: 150px; 
+        font-weight: 300;
+        font-size: 20px; 
+    }
+    .button{
+        left: 650px;
+        top: 580px;
+    }
+    .selecteditem{
+        margin-top: 40vh;
+       
+    }
+    .rightside{
+   
+        width: 30vw;
+        /* max-height: 20vh; */
+        padding-top: 2vh;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+.leftR{
+    width: 35vw;
+    height: 80vh;
+    padding-top: 10vh;
+    /* text-align: center; */
+    padding-left: 5vw;
+    box-sizing: border-box;
+
+}
 }

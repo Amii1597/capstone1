@@ -36,3 +36,32 @@
 .data_store{
     width: 33vw;
 }
+.Data_map{
+    border-radius: 12px;
+    width: 100px;
+    color: rgba(36, 33, 33, 0.363);
+    border: none;
+    padding: 2px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 5px;
+    background-color:transparent rgba(255, 255, 255, 0.116);
+}
+@media(max-width:800px){
+    .data_box{
+        width:40vw ;
+        height: 20rem;
+     display:flex ;
+        gap:-20px ; margin:1px ;
+    }
+    .data_store{
+        width: 30vw;
+     
+    }
+    .data_img{
+        height:39vh ;
+     
+       
+        top: 6vh;
+    }
+}

@@ -13,7 +13,7 @@ const Homepage = () => {
   }
   return (
 <>
-<div style={{display:'flex'}}>
+<div className='Homepage' >
 
   <Data/>
  <Notes/> 

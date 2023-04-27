@@ -7,12 +7,12 @@ const List = ({item})=>{
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': '84d716def9mshfda12e4c205103ep172fcejsncd20c7a2ef26',
+                'X-RapidAPI-Key': '9ddb382253msh9eb136b2c726e24p1b193bjsn719db9ff553b',
                 'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
             }
         };
         const fetchMovies = async()=>{
-            await fetch(`https://moviesdatabase.p.rapidapi.com/titles?genre=${item}&year=2020`, options)
+            await fetch(`https://moviesdatabase.p.rapidapi.com/titles?genre=${item}&year=2023`, options)
                 .then(response => response.json())
                 .then(response => setMovies(response.results.splice(4,4)))
                 .catch(err => console.error(err));
@@ -21,7 +21,7 @@ const List = ({item})=>{
     },[])
     return(
         <>
-        <p className="heading">{item}</p>
+        <p >{item}</p>
         <div style={{display:"flex",overflow:"hidden",marginLeft:"2vw"}}>
             {movies.map((movie,idx)=>{
                 console.log(movie?.primaryImage?.url)

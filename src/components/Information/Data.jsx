@@ -5,7 +5,7 @@ const Item = ({color,categories})=>{
     return(
         <div className='data_store' >
        {categories.map((category)=>(
-                <button style={{background:`${color}`, borderRadius:"12px",width:"100px", color:"white", border:"none",padding:"6px", height:"30px",flexShrink:0, margin:"10px"}}>{category}  <b className='data_crosssign' >X</b></button>
+                <button className='Data_map'>{category}  <b className='data_crosssign' >X</b></button>
         ))}
         </div>
     )

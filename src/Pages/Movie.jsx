@@ -11,11 +11,11 @@ navigate('/Homepage')
     const movies = JSON.parse(window.localStorage.getItem("item"))
     return(
         <>
-        <img src={Profile} onClick={Backtohomepage} style={{position:"absolute",top:"5vh",right:"3vw",height:"70px",width:"70px"}}/>
+        <img src={Profile} onClick={Backtohomepage} className='movies_img'/>
      
-        <div style={{width:"35vw",minHeight:"100vh",background:"black",overflowX:"hidden"}}>
-        <p style={{color:"green",fontSize:"3rem",margin:"1vw"}}>Super app</p>
-        <p style={{color:"white",fontSize:"2rem",margin:"3vw"}}>Entertainment according to your choice</p>
+        <div className='movies_body'>
+        <p className='movies_Heading'>Super app</p>
+        <p className='movies_Subheading'>Entertainment according to your choice</p>
         {movies.map((movie)=><List item={movie}/>)}
         </div>
         </>

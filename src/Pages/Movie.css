@@ -1,0 +1,21 @@
+.movies_img{
+    position: absolute;
+    top: 5vh;
+    right: 3vw;
+    height: 70px;
+    width: 70px;
+}
+.movies_body{
+width: 100vw;
+background-color: black;
+overflow-x: hidden;
+}
+.movies_Heading{
+    color: green;
+    font-size: 3rem;
+}
+.movies_Subheading{
+    color: white;
+    font-size: 2rem;
+    margin: 3vw;
+}

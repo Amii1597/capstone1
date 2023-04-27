@@ -59,10 +59,11 @@ const item=[
 const Category = () => {
     const [categories, setCategories] = useState([])
     const navigate = useNavigate()
+
+
     const handleSignUp = ()=>{
        window.localStorage.setItem("item", JSON.stringify([...categories]))
          navigate("/Homepage")
-
     }
   return (
  <>
